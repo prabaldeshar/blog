@@ -17,7 +17,7 @@
 					{% else %}
 						{{form.username(class="form-control form-control-lg ")}}
 					{% endif %}
-					
+
 				</div>
 				<div class="form-group">
 					{{form.email.label(class="form-control-label")}}
@@ -66,7 +66,7 @@
 	</div>
 	<div class="border-top pt-3">
 		<small class="text-muted">
-			Already Have an account? <a class="ml-2" href="{{ url_for('login') }}"> Sign In </a>
+			Already Have an account? <a class="ml-2" href="{{ url_for('users.login') }}"> Sign In </a>
 		</small>
 	</div>
 {% endblock %}
